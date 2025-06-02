@@ -1,0 +1,168 @@
+{
+  "projects": [
+    {
+      "name": "SOCA: AI-Powered Task Management System with Generative Text for Automated Subtask Generation",
+      "description": "This is a website that can manage your every day task and chunk the task in manageable subtasks and suggest task to be done for user. The website has login and registration authentication with gmail. User can add, edit, remove and mark as done the tasks.",
+      "image": "/soca.png",
+      "tags": [
+        "PHP",
+        "Cohere API",
+        "HTML",
+        "Vanila CSS",
+        "Javascript",
+        "MySQL",
+        "Bootstrap",
+        "LLama"
+      ],
+      "links": [
+        {
+          "name": "Demo",
+          "href": "https://drive.google.com/drive/folders/1YoTa4k7pIBPcGxaviBDypKibko2x6KB2?usp=sharing",
+          "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "name": "Library Course-Based Computer Usage Monitoring System",
+      "description": "Developed a user monitoring system specifically for the library's computer section. This system tracks the number of computer users based on their enrolled courses, providing valuable insights into departmental resource utilization. The system exports this data as spreadsheets for easy analysis and reporting.",
+      "image": "/comlib.png",
+      "tags": ["Python", "Desktop App", "PySimpleGUI ", "Pandas", "MS Excel"],
+      "links": [
+        {
+          "name": "Source",
+          "href": "https://github.com/drengual/ComputerUsageMonitoringSystem",
+          "icon": "github"
+        }
+      ]
+    },
+    {
+      "name": "Ciscal",
+      "description": "Developed a dynamic website for CISCAL, an Australian company specializing in laboratory equipment and calibration, effectively showcasing their comprehensive products and services to various industries.",
+      "href": "https://ciscal.com.au/",
+      "image": "/ciscal.png",
+      "tags": [
+        "NextJS",
+        "SASS",
+        "Material UI",
+        "Strapi CMS",
+        "TanStack Query",
+        "MySQL"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://ciscal.com.au/",
+          "icon": "globe"
+        },
+        {
+          "name": "Demo",
+          "href": "https://drive.google.com/file/d/1AkpW54VLJMrVHO0E4PKURNAFvsrNNr2D/view?usp=sharing ",
+          "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "name": "Rapid Doors Queensland",
+      "description": "Built a modern, user-friendly website for Rapid Doors Queensland, an Australian specialist in industrial door installation and maintenance, effectively showcasing their high-quality products and services.",
+      "href": "https://rapiddoorsqueensland.mysparkymate.com.au/",
+      "image": "/rdq.png",
+      "tags": ["ReactJS", "Strapi CMS", "MySQL", "Material UI", "Bootstrap"],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://rapiddoorsqueensland.mysparkymate.com.au/",
+          "icon": "globe"
+        },
+        {
+          "name": "Demo",
+          "href": "https://drive.google.com/file/d/1uiHEIf9mN_SsnHpj5OectxIQy5aupgZ8/view?usp=drive_link",
+          "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "name": "Gas Fill Australia",
+      "description": "Developed a new website for Gas Fill Australia, an Australian provider of gas filling services. The site features a contemporary design and intuitive interface, clearly presenting their products and services.",
+      "href": "https://gasfillaustralia.com.au/",
+      "image": "/gasfillaustralia.png",
+      "tags": [
+        "React JS",
+        "NodeJS",
+        "Express JS",
+        "MySQL",
+        "Material UI",
+        "Bootstrap",
+        "SASS"
+      ],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://gasfillaustralia.com.au/",
+          "icon": "globe"
+        },
+        {
+          "name": "Demo",
+          "href": "https://drive.google.com/file/d/1YPiwtQxuGgzFEvNokXUXYapct9v5I7HL/view?usp=sharing",
+          "icon": "youtube"
+        }
+      ]
+    },
+    {
+      "name": "My Sparky Mate",
+      "description": "We designed and developed a comprehensive website for My Sparky Mate, an Australian-based electrical services company. Built and maintained using WordPress and WPBakery, the site features a modern design and a user-friendly interface. Our work involved significant web design, as well as ongoing fixes and maintenance to ensure optimal performance and a seamless user experience, effectively showcasing My Sparky Mate's full range of services.",
+      "href": "https://www.mysparkymate.com.au/",
+      "image": "/msm.png",
+      "tags": ["Wordpress", "WP Bakery", "Web Design"],
+      "links": [
+        {
+          "name": "Demo",
+          "href": "https://drive.google.com/file/d/1NrjfPGzmun6txYyisku55QqXt3H3j-39/view?usp=drive_link",
+          "icon": "youtube"
+        },
+        {
+          "name": "Website",
+          "href": "https://www.mysparkymate.com.au/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Autoclave Australia",
+      "description": "We designed and developed a custom e-commerce website for CISCAL Autoclave Australia, a leading Australian provider of high-quality autoclaves and sterilization equipment. Built on the Shopify platform, the site features extensive web design and utilizes custom Liquid code to tailor its functionality and aesthetics, ensuring a modern and user-friendly interface that effectively showcases their diverse product range. We also integrated the Google Maps API to further enhance the user experience.",
+      "href": "https://autoclaveaustralia.com/",
+      "image": "/aa.png",
+      "tags": ["Wordpress", "WP Bakery", "Web Design"],
+      "links": [
+        {
+          "name": "Demo",
+          "href": "https://drive.google.com/file/d/1oVXXwFxs_5K6TLtkMt66pEgPMyjUIYRU/view?usp=drive_link",
+          "icon": "youtube"
+        },
+        {
+          "name": "Website",
+          "href": "https://autoclaveaustralia.com/",
+          "icon": "globe"
+        }
+      ]
+    },
+    {
+      "name": "Extruders Australia",
+      "description": "I developed a modern, user-friendly website for Extruders Australia, a leading Australian distributor of cutting-edge extrusion solutions. My efforts focused on creating a platform that effectively showcases their tailored products and services to businesses across various industries. The website was built using Shopify and customized with Liquid.",
+      "href": "https://extrudersaustralia.com.au/",
+      "image": "/ea.png",
+      "tags": ["Shopify", "Liquid"],
+      "links": [
+        {
+          "name": "Website",
+          "href": "https://extrudersaustralia.com.au/",
+          "icon": "globe"
+        },
+        {
+          "name": "Demo",
+          "href": "https://drive.google.com/file/d/15BIvChbbvfTrAvTdbuTgijKbFaADaXyv/view?usp=drive_link",
+          "icon": "youtube"
+        }
+      ]
+    }
+  ]
+}

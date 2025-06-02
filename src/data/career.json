@@ -1,0 +1,40 @@
+{
+  "career": [
+    {
+      "name": "Creaxon, Inc",
+      "href": "https://www.linkedin.com/company/creaxon-inc/",
+      "title": "Junior Full Stack Developer",
+      "logo": "/creaxon.jpg",
+      "start": "May 2024",
+      "end": "May 2025",
+      "description": [
+        "Built and maintained 10+ responsive websites using React, Next.js, Tailwind, SCSS, Material UI, WordPress, and Shopify—translating Figma designs into production-ready UIs, refactoring legacy code, and optimizing for accessibility and performance.",
+        "Handled full-stack deployment workflows including SEO improvements, Cloudways deployment, server access via PuTTY/SFTP, and team collaboration using GitLab for version control and merge management."
+      ]
+    },
+    {
+      "name": "Freelance / Project-based ",
+      "href": "",
+      "title": "Full Stack Web Developer & Project Manager",
+      "logo": "",
+      "start": "Feb 2024",
+      "end": "April 2024",
+      "description": [
+        "Led full-stack development for client projects—managed timelines, gathered requirements, guided a small dev team, and translated business needs into scalable solutions.",
+        "Built and deployed modern web apps with React, Tailwind, Supabase, and Node.js—handled UI, API integration, auth, and Git-based workflows with code reviews and best practices."
+      ]
+    },
+    {
+      "name": "Library - CvSU - CCAT Campus",
+      "href": "https://cvsu-rosario.edu.ph/",
+      "title": "IT Support, Programmer and Librarian Assistant (Intern)",
+      "logo": "/cvsuccat.png",
+      "start": "Sept 2023",
+      "end": "Jan 2024",
+      "description": [
+        "Built a Python desktop app to monitor library PC sessions, automate usage tracking, and streamline reporting—enhancing internal workflows with a redesigned interface.",
+        "Provided tech and operational support for hardware, software, and front desk tasks—boosted system reliability and assisted in record management and user onboarding."
+      ]
+    }
+  ]
+}

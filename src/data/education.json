@@ -1,0 +1,25 @@
+{
+  "education": [
+    {
+      "name": "Cavite State University - Rosario, Campus",
+      "href": "https://cvsu-rosario.edu.ph/",
+      "title": "Bachelor of Science in Information Technology",
+      "logo": "/cvsuccat.png",
+      "start": "Aug 2019",
+      "end": "Apr 2024",
+      "description": [
+        "Graduated with a Minor in Mathematics",
+        "President of Digipen Student Management Committee for freshman year",
+        "3-time recipient of the Dean's Honor List"
+      ]
+    },
+    {
+      "name": "Noveleta Senior High School - K12",
+      "href": "",
+      "title": "Technical Vocational Livelihood - Information and Communication Technology Strand",
+      "logo": "/nshs.jpg",
+      "start": "June 2017",
+      "end": "March 2019"
+    }
+  ]
+}
