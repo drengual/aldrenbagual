@@ -1,3 +1,4 @@
+import Certificates from "@/components/Certificates";
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
 import Posts from "@/components/Posts";
@@ -91,6 +92,8 @@ export default async function Home() {
         </div>
         <Projects limit={LIMIT} />
       </section>
+
+      <Certificates />
 
       <section className="flex flex-col gap-8">
         <div className="flex justify-between">

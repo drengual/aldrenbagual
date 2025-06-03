@@ -46,8 +46,8 @@ export default function TimelineItem({ experience }: Props) {
         {start && (
           <time className="text-xs text-muted-foreground">
             <span>{start}</span>
-            <span>{" - "}</span>
-            <span>{end ? end : "Present"}</span>
+            <span>{!end ? end : " - "}</span>
+            {!end ? " " : <span>{end ? end : "Present"}</span>}
           </time>
         )}
         <h2 className="font-semibold leading-none">{name}</h2>
@@ -65,7 +65,7 @@ export default function TimelineItem({ experience }: Props) {
       {links && links.length > 0 && (
         <div className="mt-2 flex flex-row flex-wrap items-start gap-2">
           {links?.map((link, idx) => (
-            <Link href={link.href} key={idx}>
+            <Link href={link.href} key={idx} target="_blank">
               <Badge key={idx} title={link.name} className="flex gap-2">
                 <Icon name={link.icon} aria-hidden="true" className="size-3" />
                 {link.name}

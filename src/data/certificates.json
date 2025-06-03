@@ -1,0 +1,106 @@
+{
+  "certificates": [
+    {
+      "name": "Advanced Level of Software Engineering",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "May 2024",
+      "description": [
+        "Advanced development skills focusing on code quality, security integration, and collaborative practices reinforced through weekly assessments."
+      ],
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/1yxhEGNf3TNwkarbdoVe9oS1w9QJ2bdRB/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "name": "Digital Marketing Channels and Funnel",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Certified in optimizing digital marketing strategies across various channels to guide customer journeys from awareness to conversion."
+      ],
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/1SAdMeAHlPfiEfQOPkVFcLmgLy--3yDyL/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "name": "Basic Javascript for Web Development",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Certified in optimizing digital marketing strategies across various channels to guide customer journeys from awareness to conversion."
+      ],
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/1mz0VJv2jgrT18iGXEwRiwx0k9NCo5lsU/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "name": "Website Deployment via Cloud",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Acquired practical skills in deploying web applications using cloud services, focusing on efficiency and scalability."
+      ],
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/1zFw9Sc-K7wIDQ2pjoUblKwfazJHV4Tux/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "name": "Introduction to Android Application Development",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Developed a solid understanding of Android app architecture and basic development workflows."
+      ],
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/10mtUTCnQRHodt-xz5ac6CzSGe5wjXTmQ/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "name": "Responsive Web Design",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/fcc.png",
+      "start": "Oct 2024",
+      "description": [
+        "Developed expertise in HTML5, CSS3, Flexbox, and CSS Grid to build web pages that adapt seamlessly across all devices and screen sizes."
+      ],
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://www.freecodecamp.org/certification/Aldren/responsive-web-design",
+          "icon": "newspaper"
+        }
+      ]
+    }
+  ]
+}
