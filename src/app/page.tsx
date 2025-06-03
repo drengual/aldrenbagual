@@ -1,4 +1,5 @@
 import Certificates from "@/components/Certificates";
+import ContactForm from "@/components/ContactForm";
 import Experience from "@/components/Experience";
 import LinkWithIcon from "@/components/LinkWithIcon";
 import Posts from "@/components/Posts";
@@ -95,7 +96,7 @@ export default async function Home() {
 
       <Certificates />
 
-      <section className="flex flex-col gap-8">
+      {/* <section className="flex flex-col gap-8">
         <div className="flex justify-between">
           <h2 className="title text-3xl">recent posts</h2>
           <LinkWithIcon
@@ -106,7 +107,13 @@ export default async function Home() {
           />
         </div>
         <Posts posts={posts} />
-      </section>
+      </section> */}
+
+      <article className="mt-8 flex flex-col gap-8 pb-16">
+        <h1 className="title">contact me.</h1>
+
+        <ContactForm />
+      </article>
     </article>
   );
 }

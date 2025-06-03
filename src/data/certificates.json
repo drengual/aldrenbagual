@@ -18,18 +18,18 @@
       ]
     },
     {
-      "name": "Digital Marketing Channels and Funnel",
+      "name": "Responsive Web Design",
       "href": "",
       "title": "Department of Information and Communications Technology",
-      "logo": "/dict.jpg",
-      "start": "Nov 2024",
+      "logo": "/fcc.png",
+      "start": "Oct 2024",
       "description": [
-        "Certified in optimizing digital marketing strategies across various channels to guide customer journeys from awareness to conversion."
+        "Developed expertise in HTML5, CSS3, Flexbox, and CSS Grid to build web pages that adapt seamlessly across all devices and screen sizes."
       ],
       "links": [
         {
           "name": "View Certification",
-          "href": "https://drive.google.com/file/d/1SAdMeAHlPfiEfQOPkVFcLmgLy--3yDyL/view?usp=drive_link",
+          "href": "https://www.freecodecamp.org/certification/Aldren/responsive-web-design",
           "icon": "newspaper"
         }
       ]
@@ -86,18 +86,18 @@
       ]
     },
     {
-      "name": "Responsive Web Design",
+      "name": "Digital Marketing Channels and Funnel",
       "href": "",
       "title": "Department of Information and Communications Technology",
-      "logo": "/fcc.png",
-      "start": "Oct 2024",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
       "description": [
-        "Developed expertise in HTML5, CSS3, Flexbox, and CSS Grid to build web pages that adapt seamlessly across all devices and screen sizes."
+        "Certified in optimizing digital marketing strategies across various channels to guide customer journeys from awareness to conversion."
       ],
       "links": [
         {
           "name": "View Certification",
-          "href": "https://www.freecodecamp.org/certification/Aldren/responsive-web-design",
+          "href": "https://drive.google.com/file/d/1SAdMeAHlPfiEfQOPkVFcLmgLy--3yDyL/view?usp=drive_link",
           "icon": "newspaper"
         }
       ]

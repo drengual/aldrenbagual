@@ -1,8 +1,8 @@
 import Link from "next/link";
 
-const lastUpdated = "Sep 2024";
+const lastUpdated = "June 2025";
 
-export default function page() {
+export default function Page() {
   return (
     <article className="prose mt-8 pb-16 dark:prose-invert">
       <div className="space-y-4">
@@ -12,62 +12,63 @@ export default function page() {
       <div className="space-y-4">
         <h2 className="title text-3xl">Hey, Welcome!</h2>
         <p>
-          Thanks for stopping by! This <b>Privacy Policy</b> is just here to let
-          you know how things work around here. My website is mainly about
-          showcasing my work, and I&apos;m all about respecting your privacy.
+          Thanks for stopping by! This <b>Privacy Policy</b> explains how I
+          handle any information shared on this site. My goal is to keep things
+          simple and respectful.
         </p>
-        <h2 className="title">What Information I Collect (Hint: Not Much)</h2>
+
+        <h2 className="title">What Information I Collect</h2>
         <p>
-          Honestly, this is just a static portfolio site, so I don&apos;t
-          actively collect any personal information. There&apos;s no account
-          creation, no tracking cookies, and definitely no sneaky data
-          gathering.
+          This is mainly a portfolio website, so I don’t collect personal info
+          unless you choose to share it. There are:
         </p>
-        <h3>1. Chatbot Conversations</h3>
-        <p>
-          If you send a message through the chatbot, it might be stored for
-          caching and training purposes. So please avoid sharing any
-          confidential info in the chat.
-        </p>
-        <h3>2. Contact Info</h3>
-        <p>
-          If you reach out via email or the contact form, the info you provide
-          is entirely up to you. I&apos;ll only use it to reply and have a
-          conversation with you—no funny business.
-        </p>
-        <h2 className="title">How I Use the Info</h2>
-        <p>Here&apos;s what I might do with any information I collect:</p>
         <ul>
-          <li>Make sure the site is running smoothly</li>
-          <li>Improve the website based on feedback you might share</li>
-          <li>Respond to your questions or feedback</li>
+          <li>No account registrations</li>
+          <li>No tracking cookies</li>
+          <li>No hidden data collection</li>
         </ul>
-        <h2 className="title">Sharing Your Info (Spoiler: I Don&apos;t)</h2>
+
+        <h3>1. Contact Info</h3>
         <p>
-          I don&apos;t sell, trade, or rent your personal info. If you shared
-          something sensitive by accident, feel free to reach out, and I&apos;ll
-          help you remove it.
+          If you contact me through the form or directly via email, any
+          information you provide (like your name or email) is used solely to
+          reply to you. That’s it—no weird stuff.
         </p>
-        <h2 className="title">Security (The Internet Isn&apos;t Perfect)</h2>
+
+        <h2 className="title">How I Use Your Info</h2>
+        <p>If you do reach out, here&#39;s how your info might be used:</p>
+        <ul>
+          <li>To reply to your message</li>
+          <li>To improve the website if you give feedback</li>
+        </ul>
+
+        <h2 className="title">I Don&#39;t Share Your Info</h2>
         <p>
-          I&apos;ll do my best to keep any info you share safe, but let&apos;s
-          be real—no system is foolproof. While I&apos;ll take reasonable steps
-          to protect your info, I can&apos;t promise 100% security.
+          I don’t sell, rent, or share your information with anyone. If you sent
+          something sensitive and want it removed, just let me know and I’ll
+          handle it.
         </p>
-        <h2 className="title">Policy Updates (No Surprises)</h2>
+
+        <h2 className="title">Security</h2>
         <p>
-          This policy is current as of <b>{lastUpdated}</b>. If I make any
-          changes, I&apos;ll update it here, so you&apos;re always in the loop.
-          Feel free to check back occasionally, but don&apos;t worry—I&apos;m
-          not making any big changes without letting you know.
+          I do my best to keep your data safe. While no system is perfect, I
+          take reasonable precautions to protect anything you send.
         </p>
-        <h2 className="title">Got Questions?</h2>
+
+        <h2 className="title">Policy Updates</h2>
         <p>
-          If you have any questions, concerns, or just want to say hi, drop me
-          an email at{" "}
-          <Link href="mailto:hello@tedawf.com">hello@tedawf.com</Link> or use
-          the <Link href="/contact">contact form</Link>. I&apos;d love to hear
-          from you!
+          This policy was last updated on <b>{lastUpdated}</b>. If I ever make
+          changes, I’ll update this page so you&#39;re always in the know.
+        </p>
+
+        <h2 className="title">Questions?</h2>
+        <p>
+          Feel free to reach out to me at{" "}
+          <Link href="mailto:aldrenbagual17@gmail.com">
+            aldrenbagual17@gmail.com
+          </Link>{" "}
+          or through the <Link href="/contact">contact form</Link>. I&#39;d be
+          happy to hear from you!
         </p>
       </div>
     </article>

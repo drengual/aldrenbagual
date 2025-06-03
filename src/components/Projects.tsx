@@ -14,7 +14,7 @@ export default function Projects({ limit }: Props) {
 
   return (
     <section className="grid grid-cols-1 gap-4 sm:grid-cols-2">
-      {projects.map((project, id) => (
+      {projects.toSorted().map((project, id) => (
         <ProjectCard key={id} project={project} />
       ))}
     </section>

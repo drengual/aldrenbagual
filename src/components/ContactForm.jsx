@@ -1,48 +1,62 @@
 "use client";
 
-import { sendEmail } from "@/lib/actions";
-import { ContactFormSchema } from "@/lib/schemas";
+import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { PaperPlaneIcon, ReloadIcon } from "@radix-ui/react-icons";
-import { SubmitHandler, useForm } from "react-hook-form";
-import { toast } from "sonner";
-import { z } from "zod";
-import { Button } from "./ui/Button";
-import { Input } from "./ui/Input";
-import { Textarea } from "./ui/Textarea";
+import { Input } from "@/components/ui/Input";
+import { Textarea } from "@/components/ui/Textarea";
+import { Button } from "@/components/ui/Button";
 import Link from "next/link";
+import * as z from "zod";
+import { useState } from "react";
 
-type Inputs = z.infer<typeof ContactFormSchema>;
+// Zod schema for validation
+const formSchema = z.object({
+  name: z.string().min(1, "Name is required."),
+  email: z.string().email("Enter a valid email."),
+  message: z.string().min(1, "Message is required."),
+});
 
 export default function ContactForm() {
   const {
     register,
     handleSubmit,
-    reset,
     formState: { errors, isSubmitting },
-  } = useForm<Inputs>({
-    resolver: zodResolver(ContactFormSchema),
-    defaultValues: {
-      name: "",
-      email: "",
-      message: "",
-    },
+    reset,
+  } = useForm({
+    resolver: zodResolver(formSchema),
   });
 
-  const processForm: SubmitHandler<Inputs> = async (data) => {
-    const result = await sendEmail(data);
+  const [statusMessage, setStatusMessage] = useState("");
+  const [isError, setIsError] = useState(false);
 
-    if (result.error) {
-      toast.error("An error occurred! Please try again later.");
-      return;
+  const processForm = async (data) => {
+    setStatusMessage("");
+    setIsError(false);
+    try {
+      const response = await fetch("/api/contact", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify(data),
+      });
+
+      const resData = await response.json();
+
+      if (response.ok) {
+        setStatusMessage("Your message has been sent successfully!");
+        reset();
+      } else {
+        setIsError(true);
+        setStatusMessage(resData.message || "Something went wrong.");
+      }
+    } catch (error) {
+      setIsError(true);
+      setStatusMessage("Network error. Please try again.");
     }
-
-    toast.success("Message sent successfully!");
-    reset();
   };
 
   return (
-    <form onSubmit={handleSubmit(processForm)}>
+    <form onSubmit={handleSubmit(processForm)} className="space-y-5">
       <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
         {/* Name */}
         <div className="h-16">
@@ -54,7 +68,7 @@ export default function ContactForm() {
             {...register("name")}
           />
           {errors.name?.message && (
-            <p className="input-error">{errors.name.message}</p>
+            <p className="mt-1 text-sm text-red-500">{errors.name.message}</p>
           )}
         </div>
 
@@ -67,9 +81,8 @@ export default function ContactForm() {
             autoComplete="email"
             {...register("email")}
           />
-
           {errors.email?.message && (
-            <p className="input-error">{errors.email.message}</p>
+            <p className="mt-1 text-sm text-red-500">{errors.email.message}</p>
           )}
         </div>
 
@@ -82,12 +95,15 @@ export default function ContactForm() {
             className="resize-none"
             {...register("message")}
           />
-
           {errors.message?.message && (
-            <p className="input-error">{errors.message.message}</p>
+            <p className="mt-1 text-sm text-red-500">
+              {errors.message.message}
+            </p>
           )}
         </div>
       </div>
+
+      {/* Submit */}
       <div className="mt-2">
         <Button
           type="submit"
@@ -106,6 +122,21 @@ export default function ContactForm() {
             </div>
           )}
         </Button>
+
+        {/* Status Message */}
+        {statusMessage && (
+          <p
+            className={`mt-4 rounded-md px-4 py-2 text-center text-sm font-medium ${
+              isError
+                ? "border border-red-300 bg-red-100 text-red-700"
+                : "border border-green-300 bg-green-100 text-green-700"
+            }`}
+          >
+            {statusMessage}
+          </p>
+        )}
+
+        {/* Privacy Note */}
         <p className="mt-4 text-xs text-muted-foreground">
           By submitting this form, I agree to the{" "}
           <Link href="/privacy" className="link font-semibold">
