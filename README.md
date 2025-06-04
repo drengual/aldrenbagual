@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🚀 Project Name
 
-## Getting Started
+A brief, one-sentence description of what this project does and why it exists.
 
-First, run the development server:
+## 🛠️ Tech Stack
+
+- Frontend: React, Next.js, Tailwind CSS
+- Backend: Node.js, Supabase
+- Other: [any libs, tools, APIs]
+
+## 📸 Screenshots
+
+![App Screenshot](link-to-screenshot.png)
+
+## ✨ Features
+
+- ✅ Feature 1 (e.g. Login & Auth)
+- ✅ Feature 2 (e.g. CRUD with Supabase)
+- ✅ Feature 3 (e.g. Mobile responsive UI)
+
+## 🧠 Lessons Learned
+
+Write a short note on what you learned or challenged yourself with in this project.
+
+## 🔗 Live Demo
+
+[Visit Site](https://your-demo-link.com)
+
+## 🧪 Run Locally
+
+Clone the project:
 
 ```bash
+git clone https://github.com/yourusername/your-repo-name.git
+cd your-repo-name
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
