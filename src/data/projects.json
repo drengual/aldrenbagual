@@ -131,7 +131,12 @@
       "description": "We designed and developed a custom e-commerce website for CISCAL Autoclave Australia, a leading Australian provider of high-quality autoclaves and sterilization equipment. Built on the Shopify platform, the site features extensive web design and utilizes custom Liquid code to tailor its functionality and aesthetics, ensuring a modern and user-friendly interface that effectively showcases their diverse product range. We also integrated the Google Maps API to further enhance the user experience.",
       "href": "https://autoclaveaustralia.com/",
       "image": "/aa.png",
-      "tags": ["Wordpress", "WP Bakery", "Web Design"],
+      "tags": [
+        "Shopify",
+        "Shopify Liquid Languange",
+        "Web Design",
+        "Google Maps API"
+      ],
       "links": [
         {
           "name": "Demo",
@@ -150,7 +155,12 @@
       "description": "I developed a modern, user-friendly website for Extruders Australia, a leading Australian distributor of cutting-edge extrusion solutions. My efforts focused on creating a platform that effectively showcases their tailored products and services to businesses across various industries. The website was built using Shopify and customized with Liquid.",
       "href": "https://extrudersaustralia.com.au/",
       "image": "/ea.png",
-      "tags": ["Shopify", "Liquid"],
+      "tags": [
+        "Shopify",
+        "Shopify Liquid Languange",
+        "Web Design",
+        "Google Maps API"
+      ],
       "links": [
         {
           "name": "Website",
