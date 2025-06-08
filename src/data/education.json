@@ -1,9 +1,9 @@
 {
   "education": [
     {
-      "name": "Cavite State University - Rosario, Campus",
+      "name": "Bachelor of Science in Information Technology",
       "href": "https://cvsu-rosario.edu.ph/",
-      "title": "Bachelor of Science in Information Technology",
+      "title": "Cavite State University - Rosario, Campus",
       "logo": "/cvsuccat.png",
       "start": "Aug 2019",
       "end": "Apr 2024",
@@ -14,9 +14,9 @@
       ]
     },
     {
-      "name": "Noveleta Senior High School - K12",
+      "name": "Technical Vocational Livelihood - Information and Communication Technology Strand",
       "href": "",
-      "title": "Technical Vocational Livelihood - Information and Communication Technology Strand",
+      "title": "Noveleta Senior High School - K12",
       "logo": "/nshs.jpg",
       "start": "June 2017",
       "end": "March 2019"
