@@ -8,8 +8,20 @@
       "start": "May 2024",
       "end": "May 2025",
       "description": [
-        "Built and maintained 10+ responsive websites using React, Next.js, Tailwind, SCSS, Material UI, WordPress, and Shopify—translating Figma designs into production-ready UIs, refactoring legacy code, and optimizing for accessibility and performance.",
-        "Handled full-stack deployment workflows including SEO improvements, Cloudways deployment, server access via PuTTY/SFTP, and team collaboration using GitLab for version control and merge management."
+        "Developed and maintained frontend components and full pages for 10+ websites using ReactJS, Next.js, Tailwind CSS, SCSS, Material UI, and vanilla CSS.",
+        "Built and customized WordPress and Shopify websites—handled page builders (Elementor, WPBakery), theme customization, plugin setup, and storefront enhancements to meet diverse client needs.",
+        "Designed and translated Figma UI/UX mockups into modern, responsive, and accessible web interfaces, ensuring consistency across devices.",
+        "Refactored and enhanced legacy codebases to boost scalability, readability, and performance using modular development practices.",
+        "Integrated Google Analytics to provide clients (including Australian-based businesses) with performance insights and user behavior tracking.",
+        "Optimized websites for SEO through semantic structure improvements, meta tag tuning, and performance enhancements.",
+        "Used Strapi CMS for managing blog content and product listings, enabling clients to update content without developer support.",
+        "Implemented security features such as CAPTCHA on WordPress forms to reduce spam and enhance trust.",
+        "Created a custom email API using Node.js and Nodemailer to automate communication processes.",
+        "Built automation scripts for scraping structured data from third-party sources, reducing manual data collection time.",
+        "Deployed websites using Cloudways—managed servers, SSH sessions, and file transfers via PuTTY and SFTP.",
+        "Performed routine website checks, bug fixes, and maintenance to ensure high uptime and smooth performance.",
+        "Collaborated using GitLab—handled version control, branch management, and merge requests across teams.",
+        "Ensured all UI implementations followed modern design trends and maintained consistency and responsiveness across platforms."
       ]
     },
     {
@@ -20,8 +32,14 @@
       "start": "Feb 2023",
       "end": "April 2024",
       "description": [
-        "Led full-stack development for client projects—managed timelines, gathered requirements, guided a small dev team, and translated business needs into scalable solutions.",
-        "Built and deployed modern web apps with React, Tailwind, Supabase, and Node.js—handled UI, API integration, auth, and Git-based workflows with code reviews and best practices."
+        "Led full-stack development for multiple client projects—managed project timelines, deliverables, and progress tracking to ensure timely launches.",
+        "Supervised and guided a small team of developers—conducted code reviews, offered mentorship, and enforced clean, scalable coding standards.",
+        "Collaborated directly with clients to gather technical and business requirements, turning ideas into clear development plans and solutions.",
+        "Built responsive and accessible user interfaces for 10+ websites using React and Tailwind CSS, ensuring performance and cross-device compatibility.",
+        "Integrated third-party and custom APIs to enable dynamic functionality and seamless data flow across applications.",
+        "Implemented authentication, real-time data handling, and cloud database workflows using Supabase and Node.js.",
+        "Configured CI/CD workflows using GitHub and Vercel—enabled automatic builds and deployments on every code push for faster development cycles.",
+        "Maintained clean and collaborative Git workflows—managed branches, conducted code reviews, and merged pull requests following best practices."
       ]
     },
     {
@@ -32,8 +50,11 @@
       "start": "Sept 2023",
       "end": "Jan 2024",
       "description": [
-        "Built a Python desktop app to monitor library PC sessions, automate usage tracking, and streamline reporting—enhancing internal workflows with a redesigned interface.",
-        "Provided tech and operational support for hardware, software, and front desk tasks—boosted system reliability and assisted in record management and user onboarding."
+        "Built and led the end-to-end development of a Python-based desktop application that monitored library PC usage, automated session tracking, and generated real-time usage reports—significantly improving administrative efficiency.",
+        "Designed and implemented the system's UI using PySimpleGUI, ensuring a user-friendly interface tailored for non-technical staff.",
+        "Integrated MS Excel for seamless data storage and report exports, reducing manual data entry and improving record accuracy.",
+        "Collaborated with library staff to gather requirements and translate them into technical specifications, ensuring the solution addressed actual workflow needs.",
+        "Provided ongoing software and hardware support, troubleshooting system issues, optimizing device performance, and assisting with daily front-desk tasks and user onboarding."
       ]
     }
   ]
