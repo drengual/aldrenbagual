@@ -26,7 +26,13 @@
       "description": [
         "Gained foundational knowledge in software development lifecycle, programming paradigms, and introductory software engineering practices."
       ],
-      "links": []
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/18M2Vy6kQlmJVM_50MtSTGL7WTaiyYxfh/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
     },
     {
       "name": "Intermediate Level of Software Engineering",
@@ -37,7 +43,13 @@
       "description": [
         "Developed intermediate skills in software design, development, and testing, building upon core software engineering concepts."
       ],
-      "links": []
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/1UzS9DZiqcCRxZ14NdY2kyVXf1t6FdJpX/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
     },
     {
       "name": "Introduction to Android Application Development",
@@ -65,7 +77,13 @@
       "description": [
         "Mastered the creation and manipulation of essential Android UI components to design intuitive and functional user interfaces."
       ],
-      "links": []
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/1fuH7H31iN_BxfsrpbfjGZ3_IFnw3mDbH/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
     },
     {
       "name": "Principles of Web Development and Introduction to HTML",
@@ -76,7 +94,13 @@
       "description": [
         "Understood core web development principles, encompassing user experience (UX) design, accessibility, and foundational web standards."
       ],
-      "links": []
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/12P5tCG3E9wE1fD_diaCalCnxY_u5yVDD/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
     },
     {
       "name": "Using HTML and CSS to Design a Website",
@@ -87,7 +111,13 @@
       "description": [
         "Proficiently utilized HTML for structuring web content and CSS for comprehensive styling and responsive web design."
       ],
-      "links": []
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/1NKM4Obly_4qwURjRTOes4hMU5pAXh72t/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
     },
     {
       "name": "Basic Javascript for Web Development",
@@ -115,7 +145,13 @@
       "description": [
         "Executed an end-to-end project, designing and building a static website by integrating HTML, CSS, and basic JavaScript."
       ],
-      "links": []
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/156LfT-_oCSfl2YqT2uVJMMN030x7WQer/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
     },
     {
       "name": "Website Deployment via Cloud",
@@ -143,7 +179,13 @@
       "description": [
         "Gained foundational understanding of marketing principles, consumer behavior, and market analysis."
       ],
-      "links": []
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/1-ahs3aHpBGzKlsWnbTU3VCZbhBzzxiKV/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
     },
     {
       "name": "Digital Marketing Channels and Funnel",
