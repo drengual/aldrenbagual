@@ -7,7 +7,7 @@
       "logo": "/dict.jpg",
       "start": "May 2024",
       "description": [
-        "Advanced development skills focusing on code quality, security integration, and collaborative practices reinforced through weekly assessments."
+        "Applied advanced software engineering principles, including complex system design, architectural patterns, and project management methodologies."
       ],
       "links": [
         {
@@ -18,55 +18,26 @@
       ]
     },
     {
-      "name": "Responsive Web Design",
-      "href": "",
-      "title": "freeCodeCamp",
-      "logo": "/fcc.png",
-      "start": "Oct 2024",
-      "description": [
-        "Developed expertise in HTML5, CSS3, Flexbox, and CSS Grid to build web pages that adapt seamlessly across all devices and screen sizes."
-      ],
-      "links": [
-        {
-          "name": "View Certification",
-          "href": "https://www.freecodecamp.org/certification/Aldren/responsive-web-design",
-          "icon": "newspaper"
-        }
-      ]
-    },
-    {
-      "name": "Basic Javascript for Web Development",
+      "name": "Basic Level of Software Engineering",
       "href": "",
       "title": "Department of Information and Communications Technology",
       "logo": "/dict.jpg",
-      "start": "Nov 2024",
+      "start": "May 2024",
       "description": [
-        "Certified in optimizing digital marketing strategies across various channels to guide customer journeys from awareness to conversion."
+        "Gained foundational knowledge in software development lifecycle, programming paradigms, and introductory software engineering practices."
       ],
-      "links": [
-        {
-          "name": "View Certification",
-          "href": "https://drive.google.com/file/d/1mz0VJv2jgrT18iGXEwRiwx0k9NCo5lsU/view?usp=drive_link",
-          "icon": "newspaper"
-        }
-      ]
+      "links": []
     },
     {
-      "name": "Website Deployment via Cloud",
+      "name": "Intermediate Level of Software Engineering",
       "href": "",
       "title": "Department of Information and Communications Technology",
       "logo": "/dict.jpg",
-      "start": "Nov 2024",
+      "start": "May 2024",
       "description": [
-        "Acquired practical skills in deploying web applications using cloud services, focusing on efficiency and scalability."
+        "Developed intermediate skills in software design, development, and testing, building upon core software engineering concepts."
       ],
-      "links": [
-        {
-          "name": "View Certification",
-          "href": "https://drive.google.com/file/d/1zFw9Sc-K7wIDQ2pjoUblKwfazJHV4Tux/view?usp=drive_link",
-          "icon": "newspaper"
-        }
-      ]
+      "links": []
     },
     {
       "name": "Introduction to Android Application Development",
@@ -86,13 +57,102 @@
       ]
     },
     {
+      "name": "Basic Building Blocks of the User Interface",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Mastered the creation and manipulation of essential Android UI components to design intuitive and functional user interfaces."
+      ],
+      "links": []
+    },
+    {
+      "name": "Principles of Web Development and Introduction to HTML",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Understood core web development principles, encompassing user experience (UX) design, accessibility, and foundational web standards."
+      ],
+      "links": []
+    },
+    {
+      "name": "Using HTML and CSS to Design a Website",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Proficiently utilized HTML for structuring web content and CSS for comprehensive styling and responsive web design."
+      ],
+      "links": []
+    },
+    {
+      "name": "Basic Javascript for Web Development",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Implemented foundational JavaScript concepts to add dynamic and interactive functionalities to web pages."
+      ],
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/1mz0VJv2jgrT18iGXEwRiwx0k9NCo5lsU/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "name": "Project 1 Developing a Static Website",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Executed an end-to-end project, designing and building a static website by integrating HTML, CSS, and basic JavaScript."
+      ],
+      "links": []
+    },
+    {
+      "name": "Website Deployment via Cloud",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Acquired practical skills in deploying web applications using cloud services, focusing on efficiency and scalability."
+      ],
+      "links": [
+        {
+          "name": "View Certification",
+          "href": "https://drive.google.com/file/d/1zFw9Sc-K7wIDQ2pjoUblKwfazJHV4Tux/view?usp=drive_link",
+          "icon": "newspaper"
+        }
+      ]
+    },
+    {
+      "name": "Fundamentals of Marketing",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Oct 2024",
+      "description": [
+        "Gained foundational understanding of marketing principles, consumer behavior, and market analysis."
+      ],
+      "links": []
+    },
+    {
       "name": "Digital Marketing Channels and Funnel",
       "href": "",
       "title": "Department of Information and Communications Technology",
       "logo": "/dict.jpg",
       "start": "Nov 2024",
       "description": [
-        "Certified in optimizing digital marketing strategies across various channels to guide customer journeys from awareness to conversion."
+        "Optimized digital marketing strategies across various channels to guide customer journeys from awareness to conversion."
       ],
       "links": [
         {
@@ -101,6 +161,72 @@
           "icon": "newspaper"
         }
       ]
+    },
+    {
+      "name": "Copywriting Basics, Advertising Copy, Trends in Art and Design",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Developed foundational copywriting skills, including crafting effective advertising copy and understanding current trends in art and design for marketing."
+      ],
+      "links": []
+    },
+    {
+      "name": "Social Media Marketing",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Mastered strategies for effective social media marketing, including content creation, audience engagement, and platform-specific tactics."
+      ],
+      "links": []
+    },
+    {
+      "name": "Principles of Design",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Acquired a comprehensive understanding of fundamental design principles, including balance, contrast, hierarchy, and unity."
+      ],
+      "links": []
+    },
+    {
+      "name": "Canva for Graphic Design",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Gained proficiency in using Canva for graphic design, creating professional visuals for various applications."
+      ],
+      "links": []
+    },
+    {
+      "name": "Trends in Art and Design",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Analyzed and understood current and emerging trends in art and design, applying insights to modern creative projects."
+      ],
+      "links": []
+    },
+    {
+      "name": "Functional Composition",
+      "href": "",
+      "title": "Department of Information and Communications Technology",
+      "logo": "/dict.jpg",
+      "start": "Nov 2024",
+      "description": [
+        "Explored techniques for effective functional composition in design, focusing on creating visually appealing and practical layouts."
+      ],
+      "links": []
     }
   ]
 }

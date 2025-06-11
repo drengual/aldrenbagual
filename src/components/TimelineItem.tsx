@@ -3,14 +3,24 @@ import Link from "next/link";
 import { Avatar, AvatarFallback, AvatarImage } from "./ui/Avatar";
 import { Badge } from "./ui/Badge";
 import Icon from "./Icon";
+import Image from "next/image";
 
 interface Props {
   experience: Experience;
 }
 
 export default function TimelineItem({ experience }: Props) {
-  const { name, href, title, logo, start, end, description, links } =
-    experience;
+  const {
+    name,
+    href,
+    title,
+    logo,
+    start,
+    end,
+    description,
+    links,
+    skill_lists,
+  } = experience;
 
   return (
     <li className="relative ml-10 py-4">
@@ -26,7 +36,7 @@ export default function TimelineItem({ experience }: Props) {
               alt={name}
               className="bg-background object-contain"
             />
-            <AvatarFallback>{name[0]}</AvatarFallback>
+            <AvatarFallback>{name?.[0] ?? "?"}</AvatarFallback>
           </Avatar>
         </Link>
       ) : (
@@ -37,7 +47,7 @@ export default function TimelineItem({ experience }: Props) {
               alt={name}
               className="bg-background object-contain"
             />
-            <AvatarFallback>{name[0]}</AvatarFallback>
+            <AvatarFallback>{name?.[0] ?? "?"}</AvatarFallback>
           </Avatar>
         </div>
       )}
@@ -73,6 +83,22 @@ export default function TimelineItem({ experience }: Props) {
             </Link>
           ))}
         </div>
+      )}
+      {skill_lists && skill_lists.length > 0 && (
+        <ul className="ml-4 mt-3 grid grid-cols-1 gap-2 md:grid-cols-2">
+          {skill_lists.map((skill, i) => (
+            <li key={i} className="flex items-center gap-2">
+              <Image
+                src={skill.icon}
+                width={"12"}
+                height={"12"}
+                alt={skill.name}
+                className="h-5 w-5"
+              />
+              <span className="text-sm">{skill.name}</span>
+            </li>
+          ))}
+        </ul>
       )}
     </li>
   );

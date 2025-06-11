@@ -20,6 +20,17 @@ const iconLink = z.object({
 });
 export type IconLink = z.infer<typeof iconLink>;
 
+const skillListItem = z.object({
+  name: z.string(),
+  icon: z.string(), // Accepts a string path like "/postman.png"
+});
+
+const skill = z.object({
+  name: z.string(),
+  image: z.string(),
+  skill_lists: z.array(skillListItem),
+});
+
 const project = z.object({
   name: z.string(),
   description: z.string(),
@@ -32,16 +43,22 @@ export const projectSchema = z.object({ projects: z.array(project) });
 export type Project = z.infer<typeof project>;
 
 const experience = z.object({
-  name: z.string(),
-  href: z.string(),
-  title: z.string(),
-  logo: z.string(),
-  start: z.string(),
+  name: z.string().optional(),
+  href: z.string().optional(),
+  title: z.string().optional(),
+  logo: z.string().optional(),
+  start: z.string().optional(),
   end: z.string().optional(),
   description: z.array(z.string()).optional(),
   links: z.array(iconLink).optional(),
+  skill_lists: z.array(skillListItem).optional(),
 });
 export type Experience = z.infer<typeof experience>;
+
+export const skillsSchema = z.object({
+  skills: z.array(skill),
+});
+export type Skill = z.infer<typeof skill>;
 
 export const careerSchema = z.object({ career: z.array(experience) });
 export const educationSchema = z.object({ education: z.array(experience) });
@@ -49,3 +66,4 @@ export const socialSchema = z.object({ socials: z.array(iconLink) });
 export const certificatesSchema = z.object({
   certificates: z.array(experience),
 });
+export const experienceSkillsSchema = z.object({ skills: z.array(experience) });

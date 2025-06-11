@@ -36,15 +36,15 @@ export default async function Home() {
           priority
         />
         <div className="flex flex-col">
-          <h1 className="title text-5xl">hi dren here. 👋</h1>
+          <h1 className="title text-5xl">Aldren Bagual</h1>
           <p className="mt-2 font-medium">
             {/* Update my age */}
-            {new Date().getFullYear() - TED_BIRTH_YEAR}
-            yo full stack developer from the Philippines
+            {/* {new Date().getFullYear() - TED_BIRTH_YEAR} */}
+            <span className="font-bold">Full stack developer</span> from the
+            Philippines
           </p>
           <p className="mt-8 max-w-sm">
-            Engineer in progress, builder by instinct — I bring structure to
-            ideas.
+            Making the Web a Better Place, <br></br>One Commit at a Time.
           </p>
 
           {/* <div className="mt-8 flex items-end gap-1">

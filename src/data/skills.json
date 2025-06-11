@@ -1,0 +1,250 @@
+{
+  "skills": [
+    {
+      "name": "Backend, API Development & Testing Tool",
+      "logo": "/logos/api.png",
+      "skill_lists": [
+        {
+          "name": "Postman",
+          "icon": "/logos/getpostman-icon.svg"
+        },
+        {
+          "name": "Cohere API",
+          "icon": "/logos/cohere_api.svg"
+        },
+        {
+          "name": "OpenAI API",
+          "icon": "/logos/OpenAI-black-monoblossom.svg"
+        },
+        {
+          "name": "Express.js",
+          "icon": "/logos/expressjs-icon.svg"
+        },
+        {
+          "name": "Nodemailer",
+          "icon": "/logos/nm_logo_200x136.png"
+        },
+        {
+          "name": "Node.js",
+          "icon": "/logos/nodejs-horizontal.svg"
+        }
+      ]
+    },
+    {
+      "name": "Programming & Scripting Languages",
+      "logo": "/logos/web-programming.png",
+      "skill_lists": [
+        {
+          "name": "JavaScript",
+          "icon": "/logos/javascript-icon.svg"
+        },
+
+        {
+          "name": "Python",
+          "icon": "/logos/python-icon.svg"
+        },
+        {
+          "name": "PHP",
+          "icon": "/logos/php-icon.svg"
+        },
+        {
+          "name": "TypeScript",
+          "icon": "/logos/ts-logo-256.svg"
+        },
+        {
+          "name": "HTML",
+          "icon": "/logos/w3_html5-icon.svg"
+        },
+
+        {
+          "name": "CSS",
+          "icon": "/logos/w3_css-icon.svg"
+        },
+        {
+          "name": "SCSS",
+          "icon": "/logos/sass-lang-icon.svg"
+        }
+      ]
+    },
+    {
+      "name": "Frameworks & Frontend Library",
+      "logo": "/logos/framework.png",
+      "skill_lists": [
+        {
+          "name": "React JS",
+          "icon": "/logos/reactjs-icon.svg"
+        },
+        {
+          "name": "React Native",
+          "icon": "/logos/reactjs-icon.svg"
+        },
+        {
+          "name": "Next JS",
+          "icon": "/logos/nextjs-icon.svg"
+        },
+        {
+          "name": "Expo",
+          "icon": "/logos/expoio-icon.svg"
+        },
+        {
+          "name": "Bootstrap",
+          "icon": "/logos/getbootstrap-icon.svg"
+        },
+        {
+          "name": "Tailwind CSS",
+          "icon": "/logos/tailwindcss-icon.svg"
+        },
+        {
+          "name": "Material UI",
+          "icon": "/logos/material-ui-1.svg"
+        },
+
+        {
+          "name": "PySimpleGUI",
+          "icon": "/logos/pysimplesoft_logo_with_text.png"
+        }
+      ]
+    },
+    {
+      "name": "Database & ORM",
+      "logo": "/logos/database.png",
+      "skill_lists": [
+        {
+          "name": "MySQL",
+          "icon": "/logos/mysql-icon.svg"
+        },
+        {
+          "name": "PostgreSQL",
+          "icon": "/logos/postgresql-icon.svg"
+        },
+        {
+          "name": "MongoDB",
+          "icon": "/logos/mongodb-icon.svg"
+        },
+        {
+          "name": "Supabase",
+          "icon": "/logos/supabase-icon.svg"
+        }
+      ]
+    },
+    {
+      "name": "Version Control & Project Management",
+      "logo": "/logos/versioncontrol.png",
+      "skill_lists": [
+        {
+          "name": "Git",
+          "icon": "/logos/git-scm-icon.svg"
+        },
+        {
+          "name": "GitHub",
+          "icon": "/logos/github-tile.svg"
+        },
+        {
+          "name": "GitLab",
+          "icon": "/logos/gitlab-icon.svg"
+        }
+      ]
+    },
+    {
+      "name": "Deployment & Web Hosting",
+      "logo": "/logos/webhost.png",
+      "skill_lists": [
+        {
+          "name": "Cloudways",
+          "icon": "/logos/cloudways.svg"
+        },
+        {
+          "name": "Vercel",
+          "icon": "/logos/vercel-icon.svg"
+        },
+
+        {
+          "name": "Hostinger",
+          "icon": "/logos/hostinger.svg"
+        },
+        {
+          "name": "InfinityFree",
+          "icon": "/logos/infinityfree.png"
+        },
+        {
+          "name": "SFTP / FileZilla",
+          "icon": "/logos/filezilla.png"
+        },
+        {
+          "name": "PuTTY",
+          "icon": "/logos/PuTTY_Icon_upstream.svg"
+        }
+      ]
+    },
+    {
+      "name": "Web Builder & Admin Panel Builder",
+      "logo": "/logos/webbuilder.png",
+      "skill_lists": [
+        {
+          "name": "WordPress",
+          "icon": "/logos/wordpress-icon.svg"
+        },
+        {
+          "name": "Shopify",
+          "icon": "/logos/shopify-icon.svg"
+        },
+        {
+          "name": "Strapi",
+          "icon": "/logos/Strapi.monogram.logo.svg"
+        }
+      ]
+    },
+    {
+      "name": "Design Tools",
+      "logo": "/logos/designtools.png",
+      "skill_lists": [
+        {
+          "name": "Figma",
+          "icon": "/logos/figma-icon.svg"
+        },
+        {
+          "name": "Adobe Photoshop",
+          "icon": "/logos/Adobe_Photoshop_CC_icon.svg"
+        },
+        {
+          "name": "Adobe Illustrator",
+          "icon": "/logos/Adobe_Illustrator_CC_icon.svg"
+        }
+      ]
+    },
+    {
+      "name": "Monitoring & Analytics",
+      "logo": "/logos/seo.png",
+      "skill_lists": [
+        {
+          "name": "Google Analytics",
+          "icon": "/logos/google_analytics-icon.svg"
+        }
+      ]
+    },
+    {
+      "name": "Documentation & Productivity",
+      "logo": "/logos/documentation.png",
+      "skill_lists": [
+        {
+          "name": "Notion",
+          "icon": "/logos/notion.svg"
+        },
+        {
+          "name": "MS Loop",
+          "icon": "/logos/Microsoft_Loop_logo.svg"
+        }
+      ]
+    },
+    {
+      "name": "Security & Authentication",
+      "logo": "/logos/secure.png",
+      "skill_lists": [
+        {
+          "name": "reCAPTCHA",
+          "icon": "/logos/recaptcha-icon.svg"
+        }
+      ]
+    }
+  ]
+}
