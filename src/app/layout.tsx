@@ -5,6 +5,7 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Calistoga, Inter } from "next/font/google";
 import "./globals.css";
+import logoDren from "@/public/logodren.png";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const calistoga = Calistoga({
@@ -12,7 +13,8 @@ const calistoga = Calistoga({
   variable: "--font-serif",
   weight: ["400"],
 });
-const logoDrenImage = "../../public/logodren.png";
+
+const BASE_URL = process.env.NEXT_PUBLIC_BASE_URL || "http://localhost:3000";
 
 export const metadata: Metadata = {
   title: "Aldren Bagual",
@@ -21,11 +23,11 @@ export const metadata: Metadata = {
     title: "Aldren Bagual",
     description:
       "My personal site showcasing my developer work experience and blogs",
-    url: "https://aldrenbagual.vercel.app/",
+    url: BASE_URL,
     siteName: "Aldren Bagual Portfolio",
     images: [
       {
-        url: logoDrenImage,
+        url: `${BASE_URL}/logodren.png`,
         width: 1200,
         height: 630,
         alt: "My Awesome Next.js App Open Graph Image",
