@@ -12,10 +12,26 @@ const calistoga = Calistoga({
   variable: "--font-serif",
   weight: ["400"],
 });
+const logoDrenImage = "../../public/logodren.png";
 
 export const metadata: Metadata = {
   title: "Aldren Bagual",
   description: "My personal site to showcase my developer work and blogs.",
+  openGraph: {
+    title: "Aldren Bagual",
+    description:
+      "My personal site showcasing my developer work experience and blogs",
+    url: "https://aldrenbagual.vercel.app/",
+    siteName: "Aldren Bagual Portfolio",
+    images: [
+      {
+        url: logoDrenImage,
+        width: 1200,
+        height: 630,
+        alt: "My Awesome Next.js App Open Graph Image",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
