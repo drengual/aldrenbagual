@@ -5,7 +5,6 @@ import { cn } from "@/lib/utils";
 import type { Metadata } from "next";
 import { Calistoga, Inter } from "next/font/google";
 import "./globals.css";
-import logoDren from "@/public/logodren.png";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-sans" });
 const calistoga = Calistoga({
@@ -25,6 +24,7 @@ export const metadata: Metadata = {
       "My personal site showcasing my developer work experience and blogs",
     url: BASE_URL,
     siteName: "Aldren Bagual Portfolio",
+    type: "website",
     images: [
       {
         url: `${BASE_URL}/logodren.png`,
